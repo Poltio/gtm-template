@@ -1,4 +1,5 @@
-homepage: "https://github.com/Poltio"
+homepage: "https://poltio.com"
+documentation: "https://platform.poltio.com/docs/index.html"
 versions:
   - sha: "a1585fc60749293de2913386b20a958b69054613"
     changeNotes: "Initial release"
