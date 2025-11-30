@@ -1,0 +1,4 @@
+homepage: "https://github.com/user/repo"
+versions:
+  - sha: "commit_sha_here"
+    changeNotes: "Initial release"
