@@ -1,4 +1,4 @@
-homepage: "https://github.com/user/repo"
+homepage: "https://github.com/Poltio"
 versions:
-  - sha: "commit_sha_here"
+  - sha: "a1585fc60749293de2913386b20a958b69054613"
     changeNotes: "Initial release"

@@ -9,7 +9,8 @@ ___INFO___
   "description": "Description of my GTM template.",
   "containerContexts": [
     "WEB"
-  ]
+  ],
+  "categories": ["AFFILIATE_MARKETING", "ADVERTISING"],
 }
 
 
