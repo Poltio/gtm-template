@@ -48,14 +48,13 @@ const setInWindow = require('setInWindow');
 const copyFromWindow = require('copyFromWindow');
 const getUrl = require('getUrl');
 const encodeUriComponent = require('encodeUriComponent');
-const makeTableMap = require('makeTableMap');
 
 const poltioId = data.poltioId;
 const currentUrl = getUrl('href');
 
 // Initialize poltio object if not present
 if (!copyFromWindow('poltio')) {
-  setInWindow('poltio', makeTableMap({
+  setInWindow('poltio', {
     queue: [],
     push: function(s, r, u) {
       // Basic queue push implementation
@@ -65,7 +64,7 @@ if (!copyFromWindow('poltio')) {
         poltioObj.queue.push([s, r, u]);
       }
     }
-  }));
+  });
 }
 
 const scriptUrl = 'https://sdk.poltio.com/poltio.js?p=' + poltioId + '&r=' + encodeUriComponent(currentUrl);
@@ -156,7 +155,7 @@ ___WEB_PERMISSIONS___
                   { "type": 1, "string": "poltio.push" },
                   { "type": 8, "boolean": true },
                   { "type": 8, "boolean": true },
-                  { "type": 8, "boolean": true }
+                  { "type": 8, "boolean": false }
                 ]
               }
             ]
