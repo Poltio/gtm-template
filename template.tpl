@@ -14,7 +14,8 @@ ___INFO___
   "categories": ["AFFILIATE_MARKETING", "ADVERTISING"],
   "brand": {
     "id": "brand_dummy",
-    "displayName": "Poltio"
+    "displayName": "Poltio",
+    "thumbnail": ""
   },
   "description": "Official Poltio GTM Template.",
   "containerContexts": [
@@ -206,9 +207,18 @@ ___WEB_PERMISSIONS___
 
 ___TESTS___
 
-scenarios: []
+scenarios:
+- name: Loads Poltio SDK
+  code: |-
+    const mockData = {
+      poltioId: "test123"
+    };
+
+    runCode(mockData);
+
+    assertApi('injectScript').wasCalled();
 
 
 ___NOTES___
 
-Created on 2025-11-30 13:05:00
+Created on 2025-12-22 13:05:00
