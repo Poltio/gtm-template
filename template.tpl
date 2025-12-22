@@ -14,8 +14,7 @@ ___INFO___
   "categories": ["AFFILIATE_MARKETING", "ADVERTISING"],
   "brand": {
     "id": "brand_dummy",
-    "displayName": "Poltio",
-    "thumbnail": ""
+    "displayName": "Poltio"
   },
   "description": "Official Poltio GTM Template.",
   "containerContexts": [
@@ -90,7 +89,7 @@ ___WEB_PERMISSIONS___
             "listItem": [
               {
                 "type": 1,
-                "string": "https://sdk.poltio.com/*"
+                "string": "https://sdk.poltio.com/poltio.js*"
               }
             ]
           }
@@ -124,36 +123,6 @@ ___WEB_PERMISSIONS___
                 ],
                 "mapValue": [
                   { "type": 1, "string": "poltio" },
-                  { "type": 8, "boolean": true },
-                  { "type": 8, "boolean": true },
-                  { "type": 8, "boolean": false }
-                ]
-              },
-              {
-                "type": 3,
-                "mapKey": [
-                  { "type": 1, "string": "key" },
-                  { "type": 1, "string": "read" },
-                  { "type": 1, "string": "write" },
-                  { "type": 1, "string": "execute" }
-                ],
-                "mapValue": [
-                  { "type": 1, "string": "poltio.queue" },
-                  { "type": 8, "boolean": true },
-                  { "type": 8, "boolean": true },
-                  { "type": 8, "boolean": false }
-                ]
-              },
-              {
-                "type": 3,
-                "mapKey": [
-                  { "type": 1, "string": "key" },
-                  { "type": 1, "string": "read" },
-                  { "type": 1, "string": "write" },
-                  { "type": 1, "string": "execute" }
-                ],
-                "mapValue": [
-                  { "type": 1, "string": "poltio.push" },
                   { "type": 8, "boolean": true },
                   { "type": 8, "boolean": true },
                   { "type": 8, "boolean": false }
