@@ -1,5 +1,5 @@
 homepage: https://poltio.com
 documentation: https://platform.poltio.com/docs/index.html
 versions:
-  - sha: 11c5c15d0a7264c88b0ac5c3f316569db5e92f25
+  - sha: bbd43cb6cb0bccf3a458ee9117ec049cd05a5c97
     changeNotes: Initial Version
