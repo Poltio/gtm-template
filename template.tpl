@@ -14,7 +14,8 @@ ___INFO___
   "categories": ["AFFILIATE_MARKETING", "ADVERTISING"],
   "brand": {
     "id": "brand_dummy",
-    "displayName": "Poltio"
+    "displayName": "Poltio",
+    "thumbnail": ""
   },
   "description": "Official Poltio GTM Template.",
   "containerContexts": [
@@ -141,12 +142,12 @@ ___WEB_PERMISSIONS___
   {
     "instance": {
       "key": {
-        "publicId": "read_url",
+        "publicId": "get_url",
         "versionId": "1"
       },
       "param": [
         {
-          "key": "keyParts",
+          "key": "urlParts",
           "value": {
             "type": 2,
             "listItem": [
